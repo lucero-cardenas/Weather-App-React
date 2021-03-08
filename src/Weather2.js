@@ -7,7 +7,7 @@ import './App.css';
 
 export default function Weather (props){
     let [country, setCountry] = useState("");
-    let [city, setCity] = useState(props.city);
+    let city = props.city;
     let [globCity, setGlobCity] = useState("");
     let [temp, setTemp] = useState(null);
     let [desc, setDesc] = useState("");
