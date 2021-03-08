@@ -82,7 +82,7 @@ export default function Weather (props){
             </div>
             <div className="third">
                 <div className="temp"><h2 id="curr-temp">{Math.round(temp)}°</h2></div>
-                <div className="units-max-min"><h4 className = "units"><a href="/" >C</a> | <a href="/" >F</a></h4></div>
+                <div className="units-max-min"><h4 className = "units"><button>C</button> | <button>F</button></h4></div>
             </div>
         </div>
     );
